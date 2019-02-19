@@ -218,21 +218,21 @@ function! s:javascriptMonokaiPhoenixFiletype()
   hi jsRepeat guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
   hi jsLabel guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
   hi jsKeyword guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-  hi jsClass guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-  hi jsAsyncKeyword guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-  hi jsGlobalObjects guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-  hi jsGlobalNodeObjects guifg=#66D9EF guibg=NONE gui=italic ctermfg=81 ctermbg=NONE cterm=italic
-  hi jsThis guifg=#66D9EF guibg=NONE gui=italic ctermfg=81 ctermbg=NONE cterm=italic
+  hi jsClass guifg=#66D9EF guibg=NONE gui=NONE ctermfg=NONE ctermbg=81  cterm=NONE
+  hi jsAsyncKeyword guifg=#66D9EF guibg=NONE gui=NONE ctermfg=NONE ctermbg=81 cterm=NONE
+  hi jsGlobalObjects guifg=#66D9EF guibg=NONE gui=NONE ctermfg=NONE ctermbg=81 cterm=NONE
+  hi jsGlobalNodeObjects guifg=#66D9EF guibg=NONE gui=italic ctermfg=NONE ctermbg=81 cterm=italic
+  hi jsThis guifg=#66D9EF guibg=NONE gui=italic ctermfg=NONE ctermbg=81 cterm=italic
   hi jsExceptions guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-  hi jsBuiltins guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-  hi jsFutureKeys guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-  hi jsHtmlEvents guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+  hi jsBuiltins guifg=#66D9EF guibg=NONE gui=NONE ctermfg=NONE ctermbg=81 cterm=NONE
+  hi jsFutureKeys guifg=#66D9EF guibg=NONE gui=NONE ctermfg=NONE ctermbg=81 cterm=NONE
+  hi jsHtmlEvents guifg=#66D9EF guibg=NONE gui=NONE ctermfg=NONE ctermbg=81 cterm=NONE
   hi jsTernaryIfOperator guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
   hi jsGenerator guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
   hi jsFuncName guifg=#A6E22E guibg=NONE gui=NONE ctermfg=112 ctermbg=NONE cterm=NONE
   hi jsFuncArgs guifg=#FD971F guibg=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
   hi jsFuncArgRest guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-  hi jsArrowFunction guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+  hi jsArrowFunction guifg=#66D9EF guibg=NONE gui=NONE ctermfg=NONE ctermbg=81 cterm=NONE
   hi jsFuncCall guifg=#A6E22E guibg=NONE gui=NONE ctermfg=112 ctermbg=NONE cterm=NONE
 
   " Custom syntax
