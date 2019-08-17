@@ -4,7 +4,7 @@
 " Note: This file is auto-generated using a script of mine. If you have
 "       any complaints about the syntax or readability of this file,
 "       please make an issue. You can also see the tool used to create
-"       this colourscheme at github.com/reewr/monokai-phoenix-builder
+"       this colorscheme at github.com/reewr/monokai-phoenix-builder
 
 set background=dark
 hi clear
@@ -15,7 +15,7 @@ endif
 
 let colors_name="monokai-phoenix"
 
-" Below are the colours used for this colourscheme with their fullname
+" Below are the colors used for this colorscheme with their fullname
 "
 " Air Force Blue   GUI: #5F87AF, Term:  67
 " Bakers Chocolate GUI: #420E09, Term:  52
@@ -80,8 +80,8 @@ hi WarningMsg guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=N
 
 " Spelling
 " --------------------------
-hi SpellBad guifg=#F8F8F2 guibg=NONE gui=undercurl ctermfg=15 ctermbg=NONE cterm=undercurl guisp=#F92782
-hi SpellLocal guifg=#66D9EF guibg=NONE gui=undercurl ctermfg=81 ctermbg=NONE cterm=undercurl guisp=#66D9EF
+hi SpellBad guifg=#F8F8F2 guibg=NONE gui=undercurl ctermfg=15 ctermbg=NONE cterm=underline guisp=#F92782
+hi SpellLocal guifg=#66D9EF guibg=NONE gui=undercurl ctermfg=81 ctermbg=NONE cterm=underline guisp=#66D9EF
 
 " Tabline
 " --------------------------
@@ -107,7 +107,7 @@ hi DiffText guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 hi Folded guifg=#778899 guibg=#211F1C gui=NONE ctermfg=103 ctermbg=00 cterm=NONE
 hi FoldColumn guifg=NONE guibg=#211F1C gui=NONE ctermfg=NONE ctermbg=00 cterm=NONE
 
-" Cursor colours
+" Cursor colors
 " --------------------------
 hi ColorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi CursorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
